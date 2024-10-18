@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/souvk/OneDrive/Desktop/cplusplus/a-02_Arrays",
+      "program": "c:/Users/souvk/OneDrive/Desktop/cplusplus/a-02_Arrays/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
