@@ -1,4 +1,7 @@
 //WAP to print the rectangle pattern
+// * * * * *
+// * * * * *
+// * * * * *
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
