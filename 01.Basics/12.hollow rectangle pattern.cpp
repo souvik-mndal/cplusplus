@@ -1,4 +1,7 @@
 //WAP to print the hollow rectangle pattern
+// * * * * *
+// *       *
+// * * * * *
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
