@@ -1,4 +1,4 @@
-//WAP to print a fancy pattern
+//WAP to print a fancy pattern 1
 // 1 
 // 2 * 2 
 // 3 * 3 * 3 
