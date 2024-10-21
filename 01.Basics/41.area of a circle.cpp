@@ -7,7 +7,7 @@ float area( int n ){
 }
 int main(){
     int n;
-    cout<<"Enter the radius of the curcle : ";
+    cout<<"Enter the radius of the circle : ";
     cin>>n;
     cout<<"the radius of the circle is : "<<area( n );
 }
