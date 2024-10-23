@@ -1,10 +1,11 @@
-//WAP to shift the array element by 1 to the (R)
+//WAP to shift the array element by 1 to the (L)
 #include<bits/stdc++.h>
 using namespace std;
-void shift_r_1( int arr[] , int n ){
+void shift_l_1( int arr[] , int n ){
     int ans[n];
-    for( int i=0 ; i<n ; i++ ){
-        int ind = (i+1)%n;
+    ans[n-1] = arr[0];
+    for( int i=1 ; i<n ; i++ ){
+        int ind = (i-1)%n;
         ans[ind] = arr[i];
     }
     for( int i=0 ; i<n ; i++ ){
@@ -20,5 +21,5 @@ int main(){
         cout<<"enter the value for index "<<i<<" : ";
         cin>>arr[i];
     }
-    shift_r_1( arr, n);
+    shift_l_1( arr, n);
 }
