@@ -1,6 +1,6 @@
 //WAP to rearrange the array element by sign 
 // 3 1 -2 -5 2 -4
-// ans = 3 -2 1 -5 2 -4
+// ans = 3 -2 1 -5 2 -4          ( positive and negative values are same)
 #include<bits/stdc++.h>
 using namespace std;
 void rearrange( int arr[] , int n ){
