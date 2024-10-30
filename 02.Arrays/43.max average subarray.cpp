@@ -1,5 +1,5 @@
 //WAP to find the maximum average subarray
-// 1 12 -5 -6 50 3
+// 1 12 -5 -6 50 3       window size = 4
 // ans = 12.5( 12 -5 -6 50 )
 #include<bits/stdc++.h>
 using namespace std;
@@ -26,6 +26,7 @@ int main(){
         cin>>arr[i];
     }
     int k;
-    cout<<"Enter the "
+    cout<<"Enter the size of the window : ";
+    cin>>k;
     cout<<"The maximum average subarray is :"<<avg( arr, n , k );
 }
