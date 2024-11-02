@@ -51,5 +51,5 @@ int main(){
     int x;
     cout<<"Enter the target element : ";
     cin>>x;
-    cout<<"The total occourence of target element is : "<<(first_occ( arr , n , x ))+1;
+    cout<<"The total occourence of target element is : "<<(last_occ(arr , n ,x ) - first_occ( arr , n , x ))+1;
 }
