@@ -22,5 +22,16 @@ int first_occ( int arr[] , int n , int x ){
     return ans;
 }
 int main(){
-    
+    int n;
+    cout<<"Enter the total number you want to take for an array: ";
+    cin>>n;
+    int arr[n];
+    for( int i=0 ; i<n ; i++ ){
+        cout<<"enter the value for index "<<i<<" : ";
+        cin>>arr[i];
+    }
+    int x;
+    cout<<"Enter the target element : ";
+    cin>>x;
+    cout<<"The first occourence of target element at index : "<<first_occ( arr , n , x );
 }
