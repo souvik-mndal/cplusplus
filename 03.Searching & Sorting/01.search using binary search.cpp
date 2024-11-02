@@ -4,7 +4,7 @@ using namespace std;
 int BS( int arr[] , int n , int x ){
     int s=0 , e=n-1;
     while( s<=e ){
-        int mid = s=(e-s)/2;
+        int mid = s+(e-s)/2;
         if( arr[mid]==x ){
             return mid;
         }
