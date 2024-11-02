@@ -18,5 +18,16 @@ int BS( int arr[] , int n , int x ){
     return -1;
 }
 int main(){
-
+    int n;
+    cout<<"Enter the total number you want to take for an array: ";
+    cin>>n;
+    int arr[n];
+    for( int i=0 ; i<n ; i++ ){
+        cout<<"enter the value for index "<<i<<" : ";
+        cin>>arr[i];
+    }
+    int x;
+    cout<<"Enter the target element : ";
+    cin>>x;
+    cout<<"The target element is present at index : "<<BS( arr , n , x );
 }
