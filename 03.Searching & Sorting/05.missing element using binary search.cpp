@@ -17,7 +17,7 @@ int missing( int arr[] , int n ){
             e=mid-1;
         }
     }
-    return ans;
+    return ans+1;
 }
 int main(){
     int n;
