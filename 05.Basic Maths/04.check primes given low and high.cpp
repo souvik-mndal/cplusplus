@@ -46,7 +46,7 @@ int main(){
     cout<<"Enter the lower and the higher range : ";
     cin>>l>>h;
     vector<bool>ans=segmentedseive(l,h);
-    for( int i=0 ; i<ans.size() ; i++ ){
+    for( int i=0 ; i<=h-l ; i++ ){
         if( ans[i] ){
             cout<<i+l<<" ";
         }
