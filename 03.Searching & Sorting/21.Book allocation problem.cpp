@@ -1,3 +1,4 @@
+//WAP to solve the book allocation problem (gfg)
 #include<bits/stdc++.h>
 using namespace std;
 bool possible(int arr[] , int n , int m , int mid ){
