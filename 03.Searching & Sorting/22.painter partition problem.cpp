@@ -1,3 +1,4 @@
+//WAP to solve the painter partition problem(gfg)
 #include<bits/stdc++.h>
 using namespace std;
 bool possible(int arr[] , int n , int k , int mid ){
