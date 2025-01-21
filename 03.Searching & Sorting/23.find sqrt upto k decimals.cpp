@@ -38,5 +38,5 @@ int main(){
     int k;
     cout<<"Enter the number of decimals you want : ";
     cin>>k;
-    cout<<"the square root is : "<<precision(n,k);
+    cout<<fixed << setprecision(k)<<"the square root is : "<<precision(n,k);
 }
