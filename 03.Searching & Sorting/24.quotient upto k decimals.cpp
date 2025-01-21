@@ -41,5 +41,5 @@ int main(){
     if((divis<0 && dividen>0)||(divis>0 && dividen<0)){
         ans*=-1;
     }
-    cout<<"the quotient is : "<<ans;
+    cout<<fixed << setprecision(k)<<"the quotient is : "<<ans;
 }
