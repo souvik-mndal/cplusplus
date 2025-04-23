@@ -61,6 +61,6 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false,
-    "cpp": true
+    "cpp": false
   }
 }
