@@ -1,6 +1,7 @@
 //WAP to check if a number is Palindrome or not
 //input: 12321
 //Output: Yes , Palindrome 
+
 #include <iostream>
 using namespace std;
 
