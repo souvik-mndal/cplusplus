@@ -1,4 +1,4 @@
-// WAP to reverse a given number.
+// WAP to reverse a given number
 // Input: 1234
 // Output: 4321
 
