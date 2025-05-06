@@ -1,4 +1,4 @@
-// WAP to reverse an integer while handling overflow.
+// WAP to reverse an integer while handling overflow
 // Input: -123
 // Output: -321
 
