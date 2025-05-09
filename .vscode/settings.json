@@ -62,5 +62,8 @@
     "markdown": false,
     "scminput": false,
     "cpp": false
+  },
+  "files.associations": {
+    "cmath": "cpp"
   }
 }
